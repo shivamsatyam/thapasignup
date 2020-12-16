@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+nav{
+    display: flex;
+    box-shadow: 6px 4px 16px black;
+    justify-content: space-around;
+}
+
+
+.first{
+    font-size: 21px;
+}
+
+.second{
+    width: 19vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+a{
+text-decoration: none;
+}
+
+
+.second h3{
+
+}

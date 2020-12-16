@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+	{{>navbar}}
+
+	<div id="none">	<div class="container">
+		<div class="left">
+			<h1>Welcome</h1>
+			<p>This is the best login and express authentication system</p>
+		</div>
+		<div class="right">
+			<h1>Employee Registation form</h1>
+		<form action="/register" method="POST">
+			<div class="grid">
+				<div class="box"><input type="name" name="firstname" placeholder="First Name" class="input"></div>
+				<div class="box"><input type="name" name="lastname" placeholder="Last name" class="input"></div>
+				<div class="box"><input type="email" name="email" placeholder="Your Email" class="input"></div>
+				<div class="box other">
+					<input type="radio" class="inputs" name="gender">Male
+					<input type="radio" class="inputs" name="gender">Female
+
+				</div>
+					
+				<div class="box"><input type="number" name="phone" placeholder="Your Phone" class="input"></div>
+				<div class="box"><input type="number" name="age" placeholder="Enter your age" class="input"></div>
+				<div class="box"><input type="password" name="password" placeholder="Password" class="input"></div>
+				<div class="box"><input type="password" name="confirmpassword" placeholder="Confrm password" class="input"></div>
+			
+		</div>
+		<button class="btn" type="submit">Submit</button>
+	</form>
+	</div>
+</div>
+
+</body>
+</html>
